@@ -14,7 +14,11 @@ This analysis has 3 main parts:
 - 2.2 Discuss the implementation and result in 2.1
 - 2.3 Confirm the result in 2.1 using networkX and its Dijkstra related functions
 
-![full-graph](shortest-path-full-graph.png "Full graph" =50%x) ![shortest-path](shortest-path.png "Shortest path" =50%x)
+<p align="center">
+  <img alt="Light" src="shortest-path-full-graph.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="shortest-path.png" width="45%">
+</p>
 
 ## Part 3: Implement Prim's algorithm
 - 3.1 Use pen and paper to run through the algorithm to find MSP
