@@ -14,8 +14,7 @@ This analysis has 3 main parts:
 - 2.2 Discuss the implementation and result in 2.1
 - 2.3 Confirm the result in 2.1 using networkX and its Dijkstra related functions
 
-<img width=50% src="shortest-path-full-graph.png"> <img src="shortest-path.png">
-
+![full-graph](shortest-path-full-graph.png "Full graph" =50%x) ![shortest-path](shortest-path.png "Shortest path" =50%x)
 
 ## Part 3: Implement Prim's algorithm
 - 3.1 Use pen and paper to run through the algorithm to find MSP
@@ -40,3 +39,10 @@ This analysis has 3 main parts:
     
 
 - Between **Best-case and Worst-case Quick sorts**: The **Best-case scenario has much better running time**. In Worst-cases, the pivot is chosen as the first, which means the largest element in the array on each recursive call. This results in **one partition having all the elements** and the **other partition having none of the elements**, leading to a time complexity of $\mathcal{O}(n^{2})$. In Best-case, the pivot is chosen as the middle element in the array on each recursive call. This results in **equal-sized partitions** on each recursive call, leading to a time complexity of $\mathcal{O}(nlogn)$.
+
+
+### Dijkstra's & Prim's algorithm
+
+Hand drawing and networkx Dijkstra calculation both implement Dijkstra algorithm to find the shortest path from a source nodes to other nodes in a graph. Dijkstra algorithm is effective in finding shortest paths in a non-negative weighted graph.
+
+Hand drawing and networkx MDS both implement Prims algorithm to generate minimum spanning tree. When there are many vertices in the graph and the edge density is high, Prim's algorithm is relatively more efficient than Kruskal's algorithm.
